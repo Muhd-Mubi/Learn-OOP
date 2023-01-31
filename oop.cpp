@@ -3,10 +3,29 @@
 using namespace std;
 
 class employee {
-public:
+private:
     string Name, Company;
     int Age;
 
+public:
+    void setName(string name) {
+        Name = name;
+    }
+    string getName() {
+        return Name; 
+    }
+    void setName(string company) {
+        Company = company;
+    }
+    string getCompany() {
+        return Company;
+    }
+    void setName(int age) {
+        Age = age;
+    }
+    int getAge() {
+        return Age;
+    }
     void intro() {
         cout << "Name: " << Name << endl;
         cout << "Company: " << Company << endl;
