@@ -1,2 +1,3 @@
 # Learn-OOP
- Learning OOP's and making it public
+ Quack Quack
+ I'm a Duck.
