@@ -4,28 +4,27 @@ using namespace std;
 
 class employee {
 public:
-    string name, company;
-    int age;
+    string Name, Company;
+    int Age;
 
     void intro() {
-        cout << "Name: " << name << endl;
-        cout << "Company: " << company << endl;
-        cout << "Age: " << age << endl;
+        cout << "Name: " << Name << endl;
+        cout << "Company: " << Company << endl;
+        cout << "Age: " << Age << endl;
         cout << endl;
+    }
+public:
+    employee(string name, string company, int age) {
+        Name = name;
+        Company = company;
+        Age = age;
     }
 };  
 
 int main(void) {
-    employee mubi;
-    mubi.name = "Mubashir";
-    mubi.age = 20;
-    mubi.company = "None";
+    employee mubi = employee("mubashir", "none", 20);
     mubi.intro();
 
-    employee employee2;
-    employee2.name = "Lassi";
-    employee2.age = 0;
-    employee2.company = "Lassi Wala";
+    employee employee2 = employee("Lassi", "Lassi Wala", 0);
     employee2.intro();
-
 }
