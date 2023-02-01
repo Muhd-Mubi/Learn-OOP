@@ -1,3 +1,0 @@
-﻿  oop.cpp
-C:\Users\mubas\OneDrive\Desktop\github\Learn-OOP\oop.cpp(17,10): error C2535: 'void employee::setName(std::string)': member function already defined or declared
-C:\Users\mubas\OneDrive\Desktop\github\Learn-OOP\oop.cpp(11,10): message : see declaration of 'employee::setName'
